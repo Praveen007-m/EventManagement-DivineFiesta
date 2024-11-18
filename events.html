@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="events.css">
+    <title>Events</title>
+    
+</head>
+<body>
+    <div class="head-container">
+        <nav class="navbar">
+            <img class="logo" src="pics/logo.png">
+            <a href="" class="navbar-page">DivineFiesta</a>
+            <ul class="nav-right"> 
+                <li><a href="home-main.html" class="nav-links">Home</a></li>
+                <li><a href="about.html" class="nav-links">About Us</a></li>
+                <li><a href="events.html" class="nav-links-events">Events</a></li>
+            </ul>
+            
+        </nav>
+    <div class="container">
+        <img class="background" src="pics/pexels1.jpg">
+        <div>
+            <h1>Experience the magic of live music – where rhythm meets soul, and every beat brings you closer to the stars!</h1>
+        </div>
+        <div class="main">
+                
+                <div class="concert">
+                <img class="aadhi" src="pics/aadhi na.jpg">
+                    <p class="name">The Return of The Dragon</p>
+                    <p class="musician">HipHop Tamizha</p>
+                    <p class="date">30/11/2024 | Saturday</p>
+                    <p class="location">YMCA, Nandhanam</p>
+                    <button class="concert-button"><a href="TheReturnofDragon.html">Tickets &#10132; </a></button>
+                </div>
+                <div class="concert">
+                    <img class="aadhi" src="pics/u1.jpg">
+                    <p class="name">The G.O.A.T</p>
+                    <p class="musician">Yuvan Shankar Raja</p>
+                    <p class="date">14/12/2024 | Saturday</p>
+                    <p class="location">Codissia Ground, Coimbatore</p>
+                    <button class="concert-button"><a href="TheGOAT.html">Tickets &#10132; </a></button>
+                </div>
+                <div class="concert">
+                    <img class="aadhi" src="pics/harris.jpeg">
+                    <p class="name">Harris: On The Edge</p>
+                    <p class="musician">Harris Jayaraj</p>
+                    <p class="date">28/12/2024 | Saturday</p>
+                    <p class="location">Kamarajar Arangam, Teynampet</p>
+                <button class="concert-button"><a href="OnTheEdge.html">Tickets &#10132; </a></button>
+                </div>
+                <div class="concert">
+                  <img class="aadhi" src="pics/arr.jpg">
+                  <p class="name">Marakkuma Nenjam</p>
+                  <p class="musician">AR Rahman</p>
+                  <p class="date">02/02/2025 | Saturday</p>
+                  <p class="location">Adityaram Palace Grounds, ECR, Chennai</p>
+                  <button class="concert-button"><a href="MarakkumaNenjam.html">Tickets &#10132;</a></button>
+              </div>
+        </div>
+        
+    </div>
+    
+    <div class="container1">
+        <div class="past">
+            <h2 class="past-head">Moments That Moved the Crowd &#10132;</h2>
+        </div>
+        
+        <div class="main" style="margin-top: 70px;">
+                <div class="concert1">
+                    <img class="aadhi" src="pics/sid1.jpg">
+                    <p class="name">NEE SINGAM DHAN</p>
+                    <p class="musician">Sid Sriram</p>
+                    
+                </div>
+                <div class="concert1">
+                <img class="aadhi" src="pics/ani.jpg">
+                    <p class="name">THE EAGLE IS COMING</p>
+                    <p class="musician">Anirudh Ravichander</p>
+                    
+                </div>
+                <div class="concert1">
+                    <img class="aadhi" src="pics/gv.jpg">
+                    <p class="name">AAYIRATHIL ORUVAN</p>
+                    <p class="musician">GV Prakash Kumar</p>
+                    
+                </div>
+                <div class="concert1">
+                    <img class="aadhi" src="pics/sana.webp">
+                    <p class="name">NEEYE OLI</p>
+                    <p class="musician">Santhosh Narayanan</p>
+                    
+                </div>
+        </div>
+        
+    </div>
+      <section id="faq">
+        <h2 class="faq-head">Frequently Asked Questions(FAQs)</h2>
+        
+        <div class="faq-item">
+          <button class="faq-question">What is the concert booking process?</button>
+          <div class="faq-answer">
+            <p>Our booking process is simple. Choose your event, select tickets, and make a payment. You’ll receive a confirmation email immediately.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">How can I contact customer support?</button>
+          <div class="faq-answer">
+            <p>You can reach our support team via email at divinefiesta@gmail.com or call us at +91 12345 67890.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">Can I cancel or transfer my ticket?</button>
+          <div class="faq-answer">
+            <p>Yes, tickets can be canceled or transferred up to 48 hours before the event. Contact our support team for assistance.</p>
+          </div>
+        </div>
+      
+        <div class="faq-item">
+          <button class="faq-question">What payment methods are accepted?</button>
+          <div class="faq-answer">
+            <p>We accept all major credit and debit cards, and  UPI.</p>
+          </div>
+        </div>
+      
+        <div class="faq-item">
+          <button class="faq-question">Is there a dress code for concerts?</button>
+          <div class="faq-answer">
+            <p>Most concerts have no formal dress code, but we recommend checking the event details for specific guidelines.</p>
+          </div>
+        </div>
+      
+        <div class="faq-item">
+          <button class="faq-question">Are there any age restrictions for attending concerts?</button>
+          <div class="faq-answer">
+            <p>Age restrictions vary by event. Please check the event details for age requirements before booking your ticket.</p>
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+          button.addEventListener('click', () => {
+            const answer = button.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+          });
+        });
+      </script>
+      
+      
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-name">
+            <img class="logo" src="pics/logo.png"></img>
+            <div class="name">
+                <h4>DivineFiesta</h4>
+                <p>Every Celebration Feels Sacred!</p>
+            </div>
+        </div>
+        <div class="footer-link">
+            <ul>
+                <h3 style="padding-top: 13px;">Quick Links</h3>
+                <li><a href="home.html" class="foot-links">Home</a></li>
+                <li><a href="events.html" class="foot-links">Events</a></li>
+                <li><a href="about.html" class="foot-links">About Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a><img class="media" src="pics/facebook.avif"></a>
+            <a><img class="media" src="pics/insta.jpg"></a>
+            <a><img class="media" src="pics/twitter.png"></a>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:divinefiesta@gmail.com" style="color: white;">divinefiesta@gmail.com</a></p>
+            <p>Phone: +91-12345 67890</p>
+        </div>
+    </div>
+</footer>
